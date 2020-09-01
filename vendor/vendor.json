@@ -1,0 +1,7 @@
+{
+  "rootPath": "github.com/verhunTaras/go-tv",
+  "heroku": {
+    "install" : [ "./..." ],
+    "goVersion": "go1.6"
+  }
+}
