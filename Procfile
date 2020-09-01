@@ -1,1 +1,1 @@
-web: bin/go-tv
+web: bin/go-getting-started

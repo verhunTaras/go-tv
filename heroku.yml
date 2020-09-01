@@ -1,8 +1,8 @@
-  https://devcenter.heroku.com/articles/heroku-yml-build-manifest
-  # Officially unsupported, but works.
-  build:
-    languages:
-      - go
+# https://devcenter.heroku.com/articles/heroku-yml-build-manifest
+# Officially unsupported, but works.
+build:
+  languages:
+    - go
 
-  run:
-    web: go-tv
+run:
+  web: go-getting-started
