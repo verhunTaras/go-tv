@@ -38,9 +38,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	materialsRoute := "/materials"
 	switch path := r.URL.Path; path {
 	case "/":
-		http.Redirect(w, r, materialsRoute, http.StatusFound)
+		http.Redirect(w, r, materialsRoute, http.StatusPermanentRedirect)
 	case materialsRoute:
-		renderTemplate(w, path[1:], &page)
+		renderTemplate(w, "materials.tpl", &page)
 	default:
 		http.NotFound(w, r)
 	}
@@ -48,6 +48,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", handler)
-
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
