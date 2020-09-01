@@ -2,15 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66589506-0076-47b3-960b-30b4b9078ebb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/df/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/df/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/df/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/df/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/df/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/df/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku.yml" beforeDir="false" afterPath="$PROJECT_DIR$/df/heroku.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/df/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials.html" beforeDir="false" afterPath="$PROJECT_DIR$/df/materials.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/materials.tpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heroku.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lang-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.tmpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.tmpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.tmpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/BENCHMARKS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/default_validator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/form.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/form_mapping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/xml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/deprecated.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/fs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/html.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/redirect.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/text.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/xml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/wercker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/heroku/x/hmetrics/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/heroku/x/hmetrics/hmetrics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/heroku/x/hmetrics/onload/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/heroku/x/hmetrics/onload/init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/manucorporat/sse/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/manucorporat/sse/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/manucorporat/sse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/manucorporat/sse/sse-encoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/manucorporat/sse/writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/colorable_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/colorable_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_bsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/context/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/baked_in.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/regexes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/bluesuncorp/validator.v5/validator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +126,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,10 +138,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Taras_Verhun\Desktop\go\go-tv" />
+      <recent name="C:\Users\Taras_Verhun\Desktop\go\go-tv\templates" />
       <recent name="C:\Users\Taras_Verhun\Desktop\go\go-tv\df" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Go Build.go build github.com/heroku/go-getting-started">
+    <configuration name="go build github.com/heroku/go-getting-started" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-tv" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/heroku/go-getting-started" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tv" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/heroku/go-getting-started" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Go Build.go build wiki.go" />
         <item itemvalue="Go Build.go build server.go" />
@@ -106,7 +194,8 @@
     <MESSAGE value="feat: add server to return materials" />
     <MESSAGE value="ci: add deployment-related changes" />
     <MESSAGE value="chore: trigger auto-deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: trigger auto-deploy" />
+    <MESSAGE value="chore: try deploy go-getting-started" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: try deploy go-getting-started" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -120,26 +209,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2644" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598992501005" />
-    <state x="2505" y="88" key="CommitChangelistDialog2" timestamp="1598992899688">
+    <state x="2505" y="88" key="CommitChangelistDialog2" timestamp="1598993553760">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2505" y="88" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598992899688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598993245231">
+    <state x="2505" y="88" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993553760" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598993595372">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993245231" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598993245230">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993595372" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598993595372">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993245230" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598993245230">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993595372" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598993595372">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993245230" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598993245230">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993595372" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598993595372">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993245230" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993595372" />
     <state x="2685" y="222" key="RollbackChangesDialog" timestamp="1598991983870">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -148,9 +237,13 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598992064064" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598992908658">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598993556393">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598992908658" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993556393" />
+    <state x="2587" y="119" width="586" height="801" key="find.popup" timestamp="1598993420464">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2587" y="119" width="586" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598993420464" />
   </component>
 </project>

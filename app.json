@@ -1,12 +1,9 @@
 {
-  "name": "Start on Heroku: Go",
-  "description": "Go Getting Started Example App",
+  "name": "Start with Go",
+  "description": "Taras Verhun Studies Go",
   "keywords": [
-    "getting-started",
     "go",
-    "sample",
-    "example"
   ],
-  "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "website": "https://go-tv.herokuapp.com/",
+  "repository": "http://github.com/verhunTaras/go-tv"
 }
