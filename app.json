@@ -1,9 +1,0 @@
-{
-  "name": "Start with Go",
-  "description": "Taras Verhun Studies Go",
-  "keywords": [
-    "go",
-  ],
-  "website": "https://go-tv.herokuapp.com/",
-  "repository": "http://github.com/verhunTaras/go-tv"
-}
